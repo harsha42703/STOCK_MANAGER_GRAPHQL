@@ -22,6 +22,8 @@ import {
 import { onError } from "@apollo/client/link/error";
 import { AuthProvider } from "./contexts/authContext";
 import { useAuth } from "./contexts/authContext";
+
+
 const errorLink = onError(({ graphqlErrors, networkError }) => {
   if (graphqlErrors) {
     graphqlErrors.map(({ message, location, path }) => {
