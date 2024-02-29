@@ -24,7 +24,7 @@ const Navbar = () => {
 
   return (
     <nav className="bg-white overflow-hidden border-gray-200 bg-opacity-5 z-50 w-screen lg:w-screen fixed top-0 left-0 backdrop-blur-2xl md:h-[70px] lg:h-[70px]">
-      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6 md:p-1.5 md:mx-18 relative">
+      <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-6 md:p-1.5 md:mx-24 relative">
         <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
           <img
             src="https://w7.pngwing.com/pngs/521/66/png-transparent-market-computer-icons-chart-market-blue-angle-text.png"

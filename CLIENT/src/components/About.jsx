@@ -6,7 +6,7 @@ const About = () => {
  const userLoggedIn = useAuth();
   return (
     <>
-      {!userLoggedIn ? <>
+      {userLoggedIn ? <>
       <div className='flex flex-col items-center justify-center h-screen w-screen'>
       <img
       src="https://w7.pngwing.com/pngs/521/66/png-transparent-market-computer-icons-chart-market-blue-angle-text.png"
