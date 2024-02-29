@@ -23,7 +23,7 @@ const Login = () => {
             
         } catch (error) {
             console.log("there is an error submitting",error);
-            setErrorMessage(error)
+            setErrorMessage("Invalid email or password")
             setIsSigningIn(false)
         }
     }
