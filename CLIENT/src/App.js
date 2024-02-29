@@ -32,7 +32,7 @@ const errorLink = onError(({ graphqlErrors, networkError }) => {
 
 const link = from([
   errorLink,
-  new HttpLink({ uri: "http://localhost:5000/" }),
+  new HttpLink({ uri: "https://stock-manager-graphql.onrender.com/" }),
 ]);
 
 const client = new ApolloClient({
