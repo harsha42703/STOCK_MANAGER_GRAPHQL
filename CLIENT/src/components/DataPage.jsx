@@ -42,19 +42,19 @@ const DataPage = () => {
       <hr className='w-screen border-gray-700 mb-[10px] '/>
       <div className='w-screen flex justify-center items-center h-[80px] '>
       <button
-          className="text-green-700 mr-3 hover:text-white bg-green-700 hover:bg-green-800 font-medium rounded-full text-md px-4 py-2 text-center dark:bg-green-300 dark:hover:bg-green-700"
+          className="text-green-700 mr-3 hover:text-white bg-green-700 hover:bg-green-800 font-medium rounded-full text-md px-2 py-2 text-center dark:bg-green-300 dark:hover:bg-green-700"
           onClick={handleRefresh}
         >
          &#8635; Refresh
         </button>
       <button
-          className="text-orange-700 mr-3 hover:text-white bg-orange-700 hover:bg-orange-800 font-medium rounded-full text-md px-4 py-2 text-center dark:bg-orange-300 dark:hover:bg-orange-700"
+          className="text-orange-700 mr-3 hover:text-white bg-orange-700 hover:bg-orange-800 font-medium rounded-full text-md px-2 py-2 text-center dark:bg-orange-300 dark:hover:bg-orange-700"
           onClick={handleUpload}
         >
          &#8593; Upload
         </button>
       <button
-          className="text-yellow-700 mr-3 hover:text-white bg-yellow-700 hover:bg-yellow-800 font-medium rounded-full text-md px-4 py-2 text-center dark:bg-yellow-300 dark:hover:bg-yellow-700"
+          className="text-yellow-700 mr-3 hover:text-white bg-yellow-700 hover:bg-yellow-800 font-medium rounded-full text-md px-2 py-2 text-center dark:bg-yellow-300 dark:hover:bg-yellow-700"
           onClick={handleDownload}
         >
          &#8595; Download
