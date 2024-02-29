@@ -23,7 +23,7 @@ const Login = () => {
             
         } catch (error) {
             console.log("there is an error submitting",error);
-            setErrorMessage("There was an Error, please try again...")
+            setErrorMessage(error)
             setIsSigningIn(false)
         }
     }
