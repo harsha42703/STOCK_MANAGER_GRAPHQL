@@ -62,7 +62,7 @@ const DataPage = () => {
       </div>
       <hr className='w-screen border-gray-700 mb-8 mt-[10px]'/>
         </div>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         {items.map((val, index) => (
           <div className="h-auto max-w-full rounded-2xl m-2" key={index}>
             <Card data={val} />
