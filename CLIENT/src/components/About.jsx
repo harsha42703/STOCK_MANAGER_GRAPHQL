@@ -13,7 +13,7 @@ const About = () => {
       className="h-8 rounded-sm mr-2"
       alt="logo"
     />
-    <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+    <span className="self-center text-2xl font-semibold whitespace-nowrap text-white">
       <span className='text-blue-300'>Stock</span> Manager<span className='text-2xl ml-1 font-bold text-blue-300'>.</span>
     </span>
     <hr className=" w-[30vw] pt-1 mt-2" />

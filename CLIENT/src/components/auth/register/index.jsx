@@ -31,7 +31,7 @@ const Register = () => {
                 <div className="w-96 text-gray-300 space-y-5 p-4 shadow-xl  rounded-xl">
                     <div className="mb-6">
                         <div className="mt-2">
-                        <h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-500 dark:text-white'>Create New Account</h5>
+                        <h5 className='mb-2 text-2xl font-bold tracking-tight text-gray-500 text-white'>Create New Account</h5>
                         <hr className="pt-1 mt-2" />
                         <hr className="border-red-400 pb-1" />
                         <hr className="border-blue-800 mb-2" />
@@ -52,7 +52,7 @@ const Register = () => {
                                 placeholder='Email'
                                 required
                                 value={email} onChange={(e) => { setEmail(e.target.value) }}
-                                className="shadow-sm mt-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                                className="shadow-sm mt-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 shadow-sm-light"
                             />
                         </div>
 
@@ -67,7 +67,7 @@ const Register = () => {
                                 autoComplete='new-password'
                                 required
                                 value={password} onChange={(e) => { setPassword(e.target.value) }}
-                                className="shadow-sm  mt-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                                className="shadow-sm  mt-1 bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 shadow-sm-light"
                             />
                         </div>
 
@@ -82,7 +82,7 @@ const Register = () => {
                                 autoComplete='off'
                                 required
                                 value={confirmPassword} onChange={(e) => { setconfirmPassword(e.target.value) }}
-                                className="shadow-sm mt-1  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500 dark:shadow-sm-light"
+                                className="shadow-sm mt-1  bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500 shadow-sm-light"
                             />
                         </div>
 

@@ -31,14 +31,14 @@ const Navbar = () => {
             className="h-8 rounded-sm"
             alt="logo"
           />
-          <span className="self-center text-xl font-semibold whitespace-nowrap md:text-2xl dark:text-white">
+          <span className="self-center text-xl font-semibold whitespace-nowrap md:text-2xl text-white">
             <span className='text-blue-300'>Stock</span> Manager<span className='text-2xl ml-1 font-bold text-blue-300'>.</span>
           </span>
         </Link>
         <button
           onClick={toggleMobileMenu}
           type="button"
-          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-400 hover:bg-gray-700 focus:ring-gray-600"
           aria-controls="navbar-default"
           aria-expanded={isMobileMenuOpen}
         >
@@ -63,7 +63,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/"
-              className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:mr-4 dark:text-white md:dark:text-blue-500"
+              className="block py-2 px-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:mr-4 text-white md:text-blue-500"
               aria-current="page"
             >
               Stocks
@@ -72,7 +72,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/About"
-              className="block py-2  md:mr-4 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              className="block py-2  md:mr-4 px-3 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
             >
               About
             </Link>
@@ -80,7 +80,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/add"
-              className="block py-2 px-3  md:mr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              className="block py-2 px-3  md:mr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
             >
               Add Stock
             </Link>
@@ -88,7 +88,7 @@ const Navbar = () => {
           <li>
             <Link
               to="/getbyitem"
-              className="block py-2 px-3  md:mr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              className="block py-2 px-3  md:mr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
             >
               Search Stock
             </Link>
@@ -96,7 +96,7 @@ const Navbar = () => {
           <li>
             <Link
               onClick={handleLogout}
-              className="block py-2 px-3 md:hover:border md:hover:border-blue-400  md:mr-4 text-gray-900 rounded hover:bg-gray-100 md:bg-blue-300 md:py-1 md:text-sm md:px-3 md:rounded-full  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              className="block py-2 px-3 md:hover:border md:hover:border-blue-400  md:mr-4 text-gray-900 rounded hover:bg-gray-100 md:bg-blue-300 md:py-1 md:text-sm md:px-3 md:rounded-full  md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 text-white md:hover:text-blue-500 hover:bg-gray-700 hover:text-white md:hover:bg-transparent"
             >
               {userLoggedIn?"Log Out":"Login"}
             </Link>
